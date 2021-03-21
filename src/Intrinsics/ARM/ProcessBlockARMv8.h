@@ -8,12 +8,9 @@
 
 namespace ProcessBlockARMv8
 {
-    void processBlockARMv8DoXor(
+    void processBlockARMv8(
         Block &nextBlock,
         const Block &refBlock,
-        const Block &prevBlock);
-    void processBlockARMv8NoXor(
-        Block &nextBlock,
-        const Block &refBlock,
-        const Block &prevBlock);
+        const Block &prevBlock,
+	bool doXor);
 }
